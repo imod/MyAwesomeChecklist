@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6BE2642194392DB0096CBAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE2641194392DB0096CBAA /* AppDelegate.swift */; };
+		F6BE2644194392DB0096CBAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BE2643194392DB0096CBAA /* Images.xcassets */; };
+		F6BE2650194392DB0096CBAA /* MyAwesomeChecklistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE264F194392DB0096CBAA /* MyAwesomeChecklistTests.swift */; };
+		F6EE425E19445BB000805ADB /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE425D19445BB000805ADB /* MyViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6BE264A194392DB0096CBAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6BE2634194392DB0096CBAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6BE263B194392DB0096CBAA;
+			remoteInfo = MyAwesomeChecklist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6BE263C194392DB0096CBAA /* MyAwesomeChecklist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAwesomeChecklist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6BE2640194392DB0096CBAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6BE2641194392DB0096CBAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6BE2643194392DB0096CBAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F6BE2649194392DB0096CBAA /* MyAwesomeChecklistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAwesomeChecklistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6BE264E194392DB0096CBAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6BE264F194392DB0096CBAA /* MyAwesomeChecklistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAwesomeChecklistTests.swift; sourceTree = "<group>"; };
+		F6EE425D19445BB000805ADB /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6BE2639194392DB0096CBAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BE2646194392DB0096CBAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6BE2633194392DB0096CBAA = {
+			isa = PBXGroup;
+			children = (
+				F6BE263E194392DB0096CBAA /* MyAwesomeChecklist */,
+				F6BE264C194392DB0096CBAA /* MyAwesomeChecklistTests */,
+				F6BE263D194392DB0096CBAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6BE263D194392DB0096CBAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6BE263C194392DB0096CBAA /* MyAwesomeChecklist.app */,
+				F6BE2649194392DB0096CBAA /* MyAwesomeChecklistTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6BE263E194392DB0096CBAA /* MyAwesomeChecklist */ = {
+			isa = PBXGroup;
+			children = (
+				F6BE2641194392DB0096CBAA /* AppDelegate.swift */,
+				F6BE2643194392DB0096CBAA /* Images.xcassets */,
+				F6BE263F194392DB0096CBAA /* Supporting Files */,
+				F6EE425D19445BB000805ADB /* MyViewController.swift */,
+			);
+			path = MyAwesomeChecklist;
+			sourceTree = "<group>";
+		};
+		F6BE263F194392DB0096CBAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6BE2640194392DB0096CBAA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6BE264C194392DB0096CBAA /* MyAwesomeChecklistTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6BE264F194392DB0096CBAA /* MyAwesomeChecklistTests.swift */,
+				F6BE264D194392DB0096CBAA /* Supporting Files */,
+			);
+			path = MyAwesomeChecklistTests;
+			sourceTree = "<group>";
+		};
+		F6BE264D194392DB0096CBAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6BE264E194392DB0096CBAA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6BE263B194392DB0096CBAA /* MyAwesomeChecklist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6BE2653194392DB0096CBAA /* Build configuration list for PBXNativeTarget "MyAwesomeChecklist" */;
+			buildPhases = (
+				F6BE2638194392DB0096CBAA /* Sources */,
+				F6BE2639194392DB0096CBAA /* Frameworks */,
+				F6BE263A194392DB0096CBAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyAwesomeChecklist;
+			productName = MyAwesomeChecklist;
+			productReference = F6BE263C194392DB0096CBAA /* MyAwesomeChecklist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6BE2648194392DB0096CBAA /* MyAwesomeChecklistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6BE2656194392DB0096CBAA /* Build configuration list for PBXNativeTarget "MyAwesomeChecklistTests" */;
+			buildPhases = (
+				F6BE2645194392DB0096CBAA /* Sources */,
+				F6BE2646194392DB0096CBAA /* Frameworks */,
+				F6BE2647194392DB0096CBAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6BE264B194392DB0096CBAA /* PBXTargetDependency */,
+			);
+			name = MyAwesomeChecklistTests;
+			productName = MyAwesomeChecklistTests;
+			productReference = F6BE2649194392DB0096CBAA /* MyAwesomeChecklistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6BE2634194392DB0096CBAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Dominik;
+				TargetAttributes = {
+					F6BE263B194392DB0096CBAA = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 83V4DF5B3Y;
+					};
+					F6BE2648194392DB0096CBAA = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = F6BE263B194392DB0096CBAA;
+					};
+				};
+			};
+			buildConfigurationList = F6BE2637194392DB0096CBAA /* Build configuration list for PBXProject "MyAwesomeChecklist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F6BE2633194392DB0096CBAA;
+			productRefGroup = F6BE263D194392DB0096CBAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6BE263B194392DB0096CBAA /* MyAwesomeChecklist */,
+				F6BE2648194392DB0096CBAA /* MyAwesomeChecklistTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6BE263A194392DB0096CBAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BE2644194392DB0096CBAA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BE2647194392DB0096CBAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6BE2638194392DB0096CBAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EE425E19445BB000805ADB /* MyViewController.swift in Sources */,
+				F6BE2642194392DB0096CBAA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BE2645194392DB0096CBAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BE2650194392DB0096CBAA /* MyAwesomeChecklistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6BE264B194392DB0096CBAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6BE263B194392DB0096CBAA /* MyAwesomeChecklist */;
+			targetProxy = F6BE264A194392DB0096CBAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F6BE2651194392DB0096CBAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6BE2652194392DB0096CBAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6BE2654194392DB0096CBAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MyAwesomeChecklist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "DA75ACA7-B1BD-4AB5-918B-C5440513B89A";
+			};
+			name = Debug;
+		};
+		F6BE2655194392DB0096CBAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MyAwesomeChecklist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "DA75ACA7-B1BD-4AB5-918B-C5440513B89A";
+			};
+			name = Release;
+		};
+		F6BE2657194392DB0096CBAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyAwesomeChecklist.app/MyAwesomeChecklist";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyAwesomeChecklistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		F6BE2658194392DB0096CBAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyAwesomeChecklist.app/MyAwesomeChecklist";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyAwesomeChecklistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6BE2637194392DB0096CBAA /* Build configuration list for PBXProject "MyAwesomeChecklist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6BE2651194392DB0096CBAA /* Debug */,
+				F6BE2652194392DB0096CBAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6BE2653194392DB0096CBAA /* Build configuration list for PBXNativeTarget "MyAwesomeChecklist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6BE2654194392DB0096CBAA /* Debug */,
+				F6BE2655194392DB0096CBAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6BE2656194392DB0096CBAA /* Build configuration list for PBXNativeTarget "MyAwesomeChecklistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6BE2657194392DB0096CBAA /* Debug */,
+				F6BE2658194392DB0096CBAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6BE2634194392DB0096CBAA /* Project object */;
+}

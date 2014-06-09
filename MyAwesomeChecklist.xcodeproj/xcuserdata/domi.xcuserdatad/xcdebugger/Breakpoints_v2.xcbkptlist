@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyAwesomeChecklist/ViewController.swift"
+            timestampString = "423859805.029285"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyAwesomeChecklist.ViewController.tableView.setter : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UITableView&gt;"
+                  moduleName = "MyAwesomeChecklist"
+                  urlString = "file:///Users/domi/work/xws/MyAwesomeChecklist/MyAwesomeChecklist/MyAwesomeChecklist/ViewController.swift"
+                  timestampString = "423905986.420078"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "21">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyAwesomeChecklist.ViewController.init (MyAwesomeChecklist.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; MyAwesomeChecklist.ViewController"
+                  moduleName = "MyAwesomeChecklist"
+                  urlString = "file:///Users/domi/work/xws/MyAwesomeChecklist/MyAwesomeChecklist/MyAwesomeChecklist/ViewController.swift"
+                  timestampString = "423905986.420239"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "131">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
